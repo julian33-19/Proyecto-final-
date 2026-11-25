@@ -272,15 +272,15 @@ namespace ProyectoFinal_AdivinaElNumero
             Console.WriteLine("-------------------------------------------------");
             if (puntajes[0] > puntajes[1])
             {
-                Console.WriteLine($"🏆 CAMPEÓN DEFINITIVO: {nombres[0]} con {puntajes[0]} puntos.");
+                Console.WriteLine($" CAMPEÓN DEFINITIVO: {nombres[0]} con {puntajes[0]} puntos.");
             }
             else if (puntajes[1] > puntajes[0])
             {
-                Console.WriteLine($"🏆 CAMPEÓN DEFINITIVO: {nombres[1]} con {puntajes[1]} puntos.");
+                Console.WriteLine($" CAMPEÓN DEFINITIVO: {nombres[1]} con {puntajes[1]} puntos.");
             }
             else
             {
-                Console.WriteLine("🤝 RESULTADO FINAL: EMPATE EN EL MARCADOR.");
+                Console.WriteLine(" RESULTADO FINAL: EMPATE EN EL MARCADOR.");
             }
             Console.WriteLine("=================================================");
         }
