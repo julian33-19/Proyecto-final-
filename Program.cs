@@ -16,7 +16,7 @@ namespace ProyectoFinal_AdivinaElNumero
             bool jugadoresRegistrados = false;
 
             Console.WriteLine("=================================================");
-            Console.WriteLine("   SALA DE JUEGOS: ADIVINA EL NUMERO CON RANKING ");
+            Console.WriteLine("   SALA DE JUEGOS:CAZA EL NUMERO CON RANKING ");
             Console.WriteLine("=================================================");
 
             // Menú principal repetitivo (Regla: ciclo while hasta elegir salir)
